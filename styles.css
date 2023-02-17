@@ -7,17 +7,31 @@ body {
 
 .sec1 {
     background-color: #1F2937;
+    text-align: start;
     display: flex;
     flex-direction: column;
     padding: 0 84px;
 }
 
+.title {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
 .header {
     justify-content: space-between;
     display: flex;
     background-color: #1F2937;
     padding: 0 84px;
     margin: 0;
+}
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    display: inline-block;
+    padding: 6px 2px;
+    text-align: center;
 }
 
 .eyes {
